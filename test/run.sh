@@ -24,7 +24,7 @@ cd ../complete
 #     chmod u+x aws
 #     ./aws put --progress "x-amz-acl: public-read" springio-guides/gs-rest-service-0.1.0.jar target/gs-rest-service-0.1.0.jar
 # fi
-
+./buildDocker.sh
 rm -rf target
 
 ./gradlew build
