@@ -25,7 +25,7 @@ cd ../complete
 #     ./aws put --progress "x-amz-acl: public-read" springio-guides/gs-rest-service-0.1.0.jar target/gs-rest-service-0.1.0.jar
 # fi
 
-docker build -f ./docker/dockerfile
+./docker build -f ./docker/dockerfile
 
 rm -rf target
 
