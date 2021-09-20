@@ -5,7 +5,7 @@
 :source-highlighter: prettify
 
 This guide walks you through the process of creating a "`Hello, World`" RESTful web
-service with Spring.
+service with Spring. Sams test.
 
 == What You Will Build
 
